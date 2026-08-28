@@ -1,13 +1,10 @@
-# Meatball
+# Tag Team
 
-A tangled 3D map of 260 hand-built HTML surfaces — every exploration, widget
-and one-off pulled from nine repositories over 31 days, dropped into a
-force-directed constellation and photographed so you can recognise one
-before you open it.
+Every `<tag>` in 263 hand-built HTML surfaces, tagging in — pulled from nine
+repositories over 31 days, dropped into a force-directed 3D constellation
+and photographed so you can recognise one before you open it.
 
-**[Live](https://meatball.vercel.app)** — a knowledge graph diagram like this
-is sometimes called a "meatball diagram": one tangled ball where everything
-touches everything. This one is made of tag soup, so the name stuck.
+**[Live](https://tag-team.vercel.app)**
 
 ## Two views, one toggle
 
@@ -17,7 +14,7 @@ touches everything. This one is made of tag soup, so the name stuck.
   it was made, or a strong overlap in vocabulary. Drag to orbit, scroll to
   zoom, hover to light a neighbourhood, click to pin and fly, search across
   every field.
-- **Grid** (`grid.html`) — the same 260 surfaces as a searchable, filterable
+- **Grid** (`grid.html`) — the same surfaces as a searchable, filterable
   card index grouped by purpose.
 
 The segmented control in the top bar switches between them without losing
@@ -37,7 +34,7 @@ Built by `tag-soup-kitchen`'s atlas pipeline:
 
 ```
 cd ../tag-soup-kitchen
-node scripts/export-standalone.mjs --out ../meatball --root ~/Projects --days 31
+node scripts/export-standalone.mjs --out ../tag-team --root ~/Projects --days 31
 ```
 
 That rescans the source tree, rebuilds the 3D layout (deterministic — same
