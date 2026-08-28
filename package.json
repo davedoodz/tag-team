@@ -1,0 +1,9 @@
+{
+  "name": "meatball",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tangled 3D map of 260 hand-built HTML surfaces",
+  "scripts": {
+    "serve": "python3 -m http.server 4300 --bind 127.0.0.1"
+  }
+}
