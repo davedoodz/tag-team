@@ -1,16 +1,5 @@
 # Tag Team
 
-```
-    <div>   <span>   <a>   <img>   <ul>   <form>
-       \      |       |      /       |      /
-        \     |       |     /        |     /
-         *................................*
-         |   263 surfaces, one galaxy    |
-         *................................*
-        /     |       |     \        |     \
-       <h1>  <button> <nav> <svg>  <table> <p>
-```
-
 Every `<tag>` in 263 hand-built HTML surfaces, tagging in — pulled from nine repositories over 31 days, dropped into a force-directed 3D constellation and photographed so you can recognize one before you open it.
 
 **[Live](https://tag-team.vercel.app)**
